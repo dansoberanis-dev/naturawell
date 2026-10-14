@@ -1,4 +1,4 @@
-# Estética Naturawell: Site Oficial (versão 16)
+# Estética Naturawell: Site Oficial (versão 17)
 
 Site institucional da **Estética Naturawell, Dra. Cristina Samy** (Curitiba/PR).
 Página única, responsiva (mobile-first), em tons pastéis premium, com SEO local
@@ -54,6 +54,11 @@ py -m http.server 5173
 ```
 
 Para parar: `Ctrl + C`. Se o comando `py` falhar, use `python -m http.server 5173`.
+
+## Novidades da versão 17
+
+- Prévia de link no WhatsApp (e redes sociais): a imagem de compartilhamento agora é um print real da página inicial, no formato 1200x630 (`assets/img/og-naturawell.jpg`, 92 KB), no lugar da foto de fundo do hero. Vale para `og:image`, Twitter Card e dados estruturados.
+- Observação: a prévia só aparece se o endereço da imagem estiver no mesmo domínio em que o site está abrindo. Hoje está `www.esteticanaturawell.com.br`. Se o link divulgado for o `*.vercel.app`, o `og:image` precisa apontar para esse domínio. O WhatsApp também guarda a prévia em cache por link; para testar de novo, cole o link com `?v=2` no final ou em uma conversa nova.
 
 ## Novidades da versão 16
 
