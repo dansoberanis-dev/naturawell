@@ -2,7 +2,7 @@
    NATURAWELL: interações
    Para trocar o WhatsApp da clínica, altere APENAS esta linha:
    ============================================================ */
-const WHATSAPP_NUMBER = "5541995530376"; // (41) 99553-0376
+const WHATSAPP_NUMBER = "5541996483230"; // (41) 99648-3230
 
 const $  = (s, c = document) => c.querySelector(s);
 const $$ = (s, c = document) => [...c.querySelectorAll(s)];

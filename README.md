@@ -1,10 +1,10 @@
-# Estética Naturawell: Site Oficial (versão 17)
+# Estética Naturawell: Site Oficial (versão 18)
 
 Site institucional da **Estética Naturawell, Dra. Cristina Samy** (Curitiba/PR).
 Página única, responsiva (mobile-first), em tons pastéis premium, com SEO local
 para "estética em Curitiba / Batel".
 
-- **WhatsApp da clínica:** (41) 99553-0376
+- **WhatsApp da clínica:** (41) 99648-3230
 - **Instagram:** [@estetica_naturawell](https://www.instagram.com/estetica_naturawell)
 - **Unidade 1:** Av. Sete de Setembro, 4923 — Sala 804, Batel, Curitiba/PR
 - **Unidade 2:** Av. do Batel, 1230 — Sala 310, Batel, Curitiba/PR
@@ -54,6 +54,10 @@ py -m http.server 5173
 ```
 
 Para parar: `Ctrl + C`. Se o comando `py` falhar, use `python -m http.server 5173`.
+
+## Novidades da versão 18
+
+- Telefone de contato da clínica trocado para (41) 99648-3230 em todo o site: barra superior, unidades, agendamento, rodapé, botão flutuante, formulário e dados estruturados do Google. O WhatsApp do crédito "Desenvolvido por" (41 98454-2307) foi mantido.
 
 ## Novidades da versão 17
 
@@ -166,7 +170,7 @@ pode hospedar em qualquer lugar (Vercel, Netlify, GitHub Pages etc.).
 
 | O que mudar | Onde |
 |---|---|
-| **Número do WhatsApp** | `assets/js/main.js`, linha 5 (`WHATSAPP_NUMBER`) **e** os links `wa.me/5541995530376` no `index.html` (busque por `5541995530376`) |
+| **Número do WhatsApp** | `assets/js/main.js`, linha 5 (`WHATSAPP_NUMBER`) **e** os links `wa.me/5541996483230` no `index.html` (busque por `5541996483230`) |
 | **Endereços das unidades** | `index.html`: seção `Unidades`, rodapé e dados estruturados (`application/ld+json` no topo) |
 | **Foto da Dra. Cristina Samy** | Substitua `assets/img/dra-cartaz-v11.webp` por outra imagem no mesmo formato, ou envie a foto original para limpos o cartaz dela |
 | **Logo oficial** | `assets/img/logo.png` (versão transparente usada no menu e no rodapé) |
